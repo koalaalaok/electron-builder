@@ -104,7 +104,8 @@ export class AppImageUpdater extends BaseUpdater {
     }
 
     if (options.isForceRunAfter) {
-      spawn(destination, [], {
+      this._logger.info(`AppImageUpdater lets spawn ${destination} --appimage-extract-and-run` );
+      spawn(destination, ["--appimage-extract-and-run"], {
         detached: true,
         stdio: "ignore",
         env,

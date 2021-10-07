@@ -1,5 +1,5 @@
 {
-  "name": "electron-updater",
+  "name": "electron-updater-koalaalaok",
   "version": "4.6.0",
   "description": "Cross platform updater for electron applications",
   "main": "out/main.js",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron-userland/electron-builder.git",
+    "url": "git+https://github.com/koalaalaok/electron-builder/electron-builder.git",
     "directory": "packages/electron-updater"
   },
   "bugs": "https://github.com/electron-userland/electron-builder/issues",
